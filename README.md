@@ -20,3 +20,4 @@
   - [ ] Implement Spectrum Visualizer 
   - [ ] Send settings like Brightness and Mode to the LED Matrix
   - [ ] Design and print Case
+  - [ ] Create App Icon
