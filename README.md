@@ -12,7 +12,7 @@
 
 - Make sure that you are connected to the Hotspot. Android sometimes disconnects by itself, because the LED Matrix doesn't provide a internet connection.
 - Press the button on the backside of the case. It should now display its IP Adress. Make sure that in the settings of the App the IP Adress is the same. The Port shoud 
-  remain Port 80.
+  remain Port 10002.
   
 ## TODO
   - [ ] Create repo for the Arduino Project
