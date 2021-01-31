@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LED Matrix</string>
+    <string name="your_text">Enter your Text</string>
+</resources>
