@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Connection">
+
+
+        <EditTextPreference
+            android:key="ip_preference"
+            android:title="IP Adress"
+            android:summary="Change the IP Adress of the LED Matrix"
+            android:defaultValue="192.168.1.9" />
+
+        <EditTextPreference
+            android:key="port_preference"
+            android:title="Port"
+            android:summary="Change the Port of the LED Matrix"
+            android:defaultValue="80" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Misc">
+        <EditTextPreference
+            android:key="Version"
+            android:title="Version"
+            android:summary="@string/version"
+            android:enabled="false"
+            android:selectable="false"
+            android:persistent="false"
+            android:shouldDisableView="false"/>
+
+        <EditTextPreference
+            android:key="About"
+            android:title="About"
+            app:summary="by Daniel Inama"
+            android:enabled="false"
+            android:selectable="false"
+            android:persistent="false"
+            android:shouldDisableView="false"/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

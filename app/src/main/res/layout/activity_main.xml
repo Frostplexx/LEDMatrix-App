@@ -44,19 +44,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
+        <LinearLayout
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_gravity="left"
-            android:text="Send"
-            android:drawableLeft="@drawable/send"
-            android:drawableTint="@color/accent"
-            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="left"
+                android:text="Send"
+                android:drawableLeft="@drawable/send"
+                android:drawableTint="@color/accent"
+                style="?attr/materialButtonOutlinedStyle"
 
-            />
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="170dp"
+                android:text="Help"
+                android:id="@+id/help"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:drawableTint="@color/accent"
+                android:drawableLeft="@drawable/help"
+
+                />
+
+        </LinearLayout>
+
 
         <View
             android:layout_width="match_parent"

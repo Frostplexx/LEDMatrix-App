@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">LED Matrix</string>
     <string name="your_text">Enter your Text</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="preference_category_title">Datenabfrage</string>
+    <string name="preference_xmlmode_title">XML-Daten verwenden</string>
+    <string name="preference_xmlmode_key">key_xml_mode</string>
+    <string name="preference_xmlmode_summary_on">Es werden XML-Daten vom Webserver angefordert.</string>
+    <string name="preference_xmlmode_summary_off">Der XML-Datenmodus ist deaktiviert.</string>
+
+    <string name="preference_quotecount_title">Anzahl angeforderte Zitate</string>
+    <string name="preference_quotecount_key">key_quote_count</string>
+    <string name="preference_quotecount_summary">Zitate werden pro Anfrage vom Webserver angefordert.</string>
+    <string name="preference_quotecount_dialog_unit">Zitate</string>
+    <string name="preference_quotecount_dialog_positive_button_text">OK</string>
+    <string name="preference_quotecount_dialog_negative_button_text">Abbrechen</string>
+    <string name="preference_quotecount_dialog_title">Wie viele Zitate sollen angefordert werden?</string>
+    <string name="version">0.1</string>
+
 </resources>
